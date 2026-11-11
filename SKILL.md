@@ -1,6 +1,12 @@
 ---
 name: browser-extension-publisher
+display_name: 浏览器插件 GitHub 发布助手
+display_name_en: Browser Extension GitHub Publisher
 description: 将已有的 Chrome/Chromium 浏览器插件源码和安装 ZIP 发布或更新到 GitHub。检查 manifest、文件范围、隐私与版权，准备可审阅的发布材料，在用户确认账号、仓库、可见性和具体动作后发布，并核验远端源码及下载包。适用于“把这个浏览器插件上传 GitHub”“发布插件新版本”；不负责 Chrome 商店上架或发布 agent Skill。
+description_zh: 把已有的 Chrome/Chromium 浏览器插件源码和安装包发布或更新到 GitHub：检查 manifest、隐私与版权，准备可审阅材料，经用户确认后执行发布并核验远端结果。不负责 Chrome 商店上架。
+description_en: "Publish or update an existing Chrome/Chromium extension's source code and install ZIP to GitHub: inspect the manifest, file scope, privacy and licensing, prepare reviewable release materials, publish only after the user confirms account, repo, visibility and actions, then verify the remote source and download package. Does not handle Chrome Web Store submission."
+version: 1.0.0
+author: amandamode
 license: MIT
 metadata:
   author: amandamode
